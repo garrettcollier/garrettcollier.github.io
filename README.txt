@@ -3,7 +3,7 @@ Personal Website
 Credits:
 
     Demo Images:
-        Unsplash:       	(https://www.unsplash.com)
+        	Unsplash:       	(https://www.unsplash.com)
 
     Icons:
 		Themify Icons: 		(https://themify.me/themify-icons)
