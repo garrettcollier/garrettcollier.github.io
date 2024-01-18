@@ -32,7 +32,7 @@
   --success: #A3C14A;
   --info: #47D8E0;
   --warning: #FF8882;
-  --danger: #F85C70;
+  --danger: #79A9F5;
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
@@ -162,13 +162,13 @@ sup {
 }
 
 a {
-  color: #F85C70;
+  color: #79A9F5;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #f51330;
+  color: #79A9F5;
   text-decoration: none;
 }
 
@@ -7192,7 +7192,7 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #F85C70 !important;
+  background-color: #79A9F5 !important;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,
@@ -10817,7 +10817,7 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #F85C70 !important;
+  color: #79A9F5 !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
@@ -11006,7 +11006,7 @@ p {
   display: block;
   width: 25px;
   height: 1.5px;
-  background-color: #F85C70;
+  background-color: #79A9F5;
 }
 
 .breadcrumb {
@@ -11410,7 +11410,7 @@ pre .code {
 }
 
 .navbar .nav-link.active {
-  color: #F85C70 !important;
+  color: #79A9F5 !important;
 }
 
 .navbar .brand {
@@ -11679,7 +11679,7 @@ pre .code {
   content: '';
   width: 20px;
   height: 2px;
-  background: #F85C70;
+  background: #79A9F5;
   display: block;
   margin-top: 10px;
 }
