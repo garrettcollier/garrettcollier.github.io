@@ -50,11 +50,27 @@
         height: 100%;
     }
 
+    .container {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .contact-card-column {
+        flex: 0 1 auto;
+        width: fit-content;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .contact-form-card,
     .contact-info-card {
         padding: 35px;
         background: $white;
-        min-height: 500px;
+        width: max-content;
+        max-width: 100%;
+        min-height: auto;
     }
 
     .contact-info-card {
@@ -73,4 +89,13 @@
             margin-top: 10px;
         }
     }
+
+    .contact-email-row {
+        margin-bottom: 26px !important;
+    }
+
+    .contact-resume-row {
+        margin-bottom: 30px !important;
+    }
+
 }

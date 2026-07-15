@@ -11662,13 +11662,31 @@ pre .code {
 .contact .container {
   position: relative;
   z-index: 1;
+  width: 100%;
+}
+
+.contact .contact-card-column {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact .contact-form-card,
 .contact .contact-info-card {
   padding: 35px;
   background: #fff;
-  min-height: 500px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 100%;
+  min-height: auto;
 }
 
 .contact .contact-info-card {
@@ -11686,4 +11704,12 @@ pre .code {
   background: #79A9F5;
   display: block;
   margin-top: 10px;
+}
+
+.contact .contact-email-row {
+  margin-bottom: 26px !important;
+}
+
+.contact .contact-resume-row {
+  margin-bottom: 30px !important;
 }
