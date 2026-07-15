@@ -49,7 +49,7 @@ gulp.task('sass', function() {
 gulp.task('css', function() {
     return gulp.src(paths.src.css)
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(concat('johndoe.css'))
+    .pipe(concat('garrettcollier.css'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(paths.dist.css))
 });
@@ -58,7 +58,7 @@ gulp.task('css', function() {
 gulp.task('js', function() {
     return gulp.src(paths.src.js)
     .pipe(uglify())
-    .pipe(concat('johndoe.js'))
+    .pipe(concat('garrettcollier.js'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(paths.dist.js))
     .pipe(browserSync.stream());

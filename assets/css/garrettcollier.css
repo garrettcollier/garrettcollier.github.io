@@ -1,17 +1,7 @@
 @charset "UTF-8";
 /*!
-=========================================================
-* JohnDoe Landing page
-=========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
+ * Garrett Collier personal website styles.
+ */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
 :root {
   --blue: #79A9F5;
@@ -11637,11 +11627,12 @@ pre .code {
       -ms-flex-align: center;
           align-items: center;
   padding: 40px 0;
+  background: #17263c;
 }
 
 @media (max-width: 991.98px) {
   .contact {
-    padding: 300px 0 0;
+    padding: 40px 0;
   }
   .contact .contact-form-card {
     border-bottom: 1px solid #dee2e6;
@@ -11658,6 +11649,19 @@ pre .code {
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.contact .map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  -webkit-filter: invert(90%) hue-rotate(180deg) saturate(55%) brightness(0.78) contrast(1.08);
+          filter: invert(90%) hue-rotate(180deg) saturate(55%) brightness(0.78) contrast(1.08);
+}
+
+.contact .container {
+  position: relative;
+  z-index: 1;
 }
 
 .contact .contact-form-card,
