@@ -98,11 +98,27 @@ body {
 
 .hero-social {
   display: flex;
-  gap: 1.35rem;
+  gap: 1.15rem;
   margin: 0 0 1.35rem .2rem;
   padding: 0;
   position: static;
   width: auto;
+}
+
+.hero-social .substack-mark,
+.substack-list-mark {
+  align-items: center;
+  display: inline-flex;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 1;
+}
+
+.hero-social .substack-mark {
+  font-size: 1.2rem;
+  height: 1.2rem;
+  width: 1.2rem;
 }
 
 .legacy-home-hero .hero-copy {
@@ -403,7 +419,8 @@ body {
   box-shadow: 0 10px 24px rgba(26, 36, 48, .06);
 }
 
-.social-link-list i {
+.social-link-list i,
+.social-link-list .substack-list-mark {
   align-items: center;
   background: var(--gc-soft);
   border-radius: 50%;
@@ -412,6 +429,10 @@ body {
   height: 42px;
   justify-content: center;
   width: 42px;
+}
+
+.social-link-list .substack-list-mark {
+  font-size: 1.15rem;
 }
 
 .social-link-list strong,
