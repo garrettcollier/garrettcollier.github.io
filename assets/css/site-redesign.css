@@ -734,6 +734,44 @@ body {
   overflow-x: auto;
 }
 
+.article-table {
+  border-collapse: collapse;
+  color: var(--gc-dark);
+  margin-bottom: 0;
+  min-width: 680px;
+  width: 100%;
+}
+
+.article-table caption {
+  caption-side: top;
+  color: var(--gc-muted);
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  padding-bottom: .75rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.article-table th,
+.article-table td {
+  border: 1px solid var(--gc-line);
+  padding: .85rem;
+  vertical-align: top;
+}
+
+.article-table th {
+  background: var(--gc-soft);
+  font-size: .9rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.article-table td {
+  font-size: .96rem;
+  line-height: 1.6;
+}
+
 .responsive-table table {
   min-width: 620px;
   width: 100%;
