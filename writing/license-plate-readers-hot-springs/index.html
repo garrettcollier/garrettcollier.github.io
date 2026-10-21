@@ -39,20 +39,15 @@
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
-    <nav class="navbar site-navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <nav class="navbar site-navbar navbar-light bg-white sticky-top" aria-label="Primary">
         <div class="container">
             <a class="navbar-brand site-brand" href="/">Garrett Collier</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainNavigation">
+            <div class="site-navigation" id="mainNavigation">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="/writing/">Writing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/public-service/">Public Service</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/technology/">Technology</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/experience/">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/work/">Work</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/writing/" aria-current="location">Writing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/speaking/">Speaking</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
                 </ul>
             </div>
@@ -229,20 +224,20 @@
                     <h2>Sources &amp; Further Reading</h2>
                     <p>I include these sources so readers can inspect the law, vendor claims, and public camera-map data for themselves. The HSPD camera count and no-facial-recognition statement above are attributed to my conversation with Chief Chapmond.</p>
                     <ul>
-                        <li><a href="https://law.onecle.com/arkansas/title-12/12-12-1803.html" target="_blank" rel="noopener">Arkansas Code Section 12-12-1803: restrictions on use of automatic license plate reader systems</a></li>
-                        <li><a href="https://law.onecle.com/arkansas/title-12/12-12-1804.html" target="_blank" rel="noopener">Arkansas Code Section 12-12-1804: use, preservation, and destruction of captured plate data</a></li>
-                        <li><a href="https://www.dps.arkansas.gov/wp-content/uploads/PROPOSED-RULES-FOR-LICENSE-PLATE-READERS_7-15-2024.pdf" target="_blank" rel="noopener">Arkansas Department of Public Safety: proposed rules for license plate readers</a></li>
-                        <li><a href="https://www.flocksafety.com/trust/data-privacy" target="_blank" rel="noopener">Flock Safety Trust Center: data privacy and protection</a></li>
-                        <li><a href="https://www.flocksafety.com/faq" target="_blank" rel="noopener">Flock Safety: frequently asked questions</a></li>
-                        <li><a href="https://www.findingflock.com/cameras/arkansas/hot-springs" target="_blank" rel="noopener">Finding Flock: Hot Springs, Arkansas public ALPR map page</a></li>
-                        <li><a href="https://www.findingflock.com/methodology" target="_blank" rel="noopener">Finding Flock: methodology and limits of the public map data</a></li>
-                        <li><a href="https://deflockusa.com/" target="_blank" rel="noopener">DeFlock: public ALPR camera map</a></li>
+                        <li><a href="https://law.onecle.com/arkansas/title-12/12-12-1803.html" rel="noopener">Arkansas Code Section 12-12-1803: restrictions on use of automatic license plate reader systems</a></li>
+                        <li><a href="https://law.onecle.com/arkansas/title-12/12-12-1804.html" rel="noopener">Arkansas Code Section 12-12-1804: use, preservation, and destruction of captured plate data</a></li>
+                        <li><a href="https://www.dps.arkansas.gov/wp-content/uploads/PROPOSED-RULES-FOR-LICENSE-PLATE-READERS_7-15-2024.pdf" rel="noopener">Arkansas Department of Public Safety: proposed rules for license plate readers</a></li>
+                        <li><a href="https://www.flocksafety.com/trust/data-privacy" rel="noopener">Flock Safety Trust Center: data privacy and protection</a></li>
+                        <li><a href="https://www.flocksafety.com/faq" rel="noopener">Flock Safety: frequently asked questions</a></li>
+                        <li><a href="https://www.findingflock.com/cameras/arkansas/hot-springs" rel="noopener">Finding Flock: Hot Springs, Arkansas public ALPR map page</a></li>
+                        <li><a href="https://www.findingflock.com/methodology" rel="noopener">Finding Flock: methodology and limits of the public map data</a></li>
+                        <li><a href="https://deflockusa.com/" rel="noopener">DeFlock: public ALPR camera map</a></li>
                     </ul>
                 </footer>
 
                 <aside class="callout">
                     <h2>About Garrett</h2>
-                    <p>Garrett Collier is a software developer and public administrator from Hot Springs, Arkansas. His writing focuses on making complicated public questions easier to understand without flattening the evidence, tradeoffs, or uncertainty. You can also follow future essays through <a href="https://substack.com/@garrettcolecollier" target="_blank" rel="noopener">Substack</a>.</p>
+                    <p>Garrett Collier is a software developer and public administrator from Hot Springs, Arkansas. His writing focuses on making complicated public questions easier to understand without flattening the evidence, tradeoffs, or uncertainty. You can also follow future essays through <a href="https://substack.com/@garrettcolecollier" rel="noopener">Substack</a>.</p>
                 </aside>
 
                 <aside class="callout">
@@ -259,14 +254,14 @@
         <div class="container footer-grid">
             <p>&copy; 2026 Garrett Collier</p>
             <nav aria-label="Footer">
+                <a href="/about/">About</a>
+                <a href="/work/">Work</a>
                 <a href="/writing/">Writing</a>
-                <a href="/projects/">Projects</a>
-                <a href="/experience/">Experience</a>
+                <a href="/speaking/">Speaking</a>
                 <a href="/contact/">Contact</a>
             </nav>
         </div>
     </footer>
-    <script src="/assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/assets/js/reading-motion.js" defer></script>
 </body>
 </html>

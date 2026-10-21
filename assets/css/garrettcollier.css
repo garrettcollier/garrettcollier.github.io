@@ -361,7 +361,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Dosis", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -10956,9 +10956,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* typography */
 p {
-  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .8;
-  color: #444;
+  font-size: 1.0625rem;
+  opacity: 1;
+  color: inherit;
 }
 
 .title {
@@ -11396,7 +11396,7 @@ pre .code {
 
 .navbar .nav-link {
   font-weight: bold;
-  font-family: "Dosis","Open Sans",sans-serif;
+  font-family: "Source Sans Pro",sans-serif;
 }
 
 .navbar .nav-link.active {

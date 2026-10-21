@@ -5,7 +5,9 @@
   "main": "gulpfile.js",
   "author": "Garrett Collier",
   "scripts": {
-    "start": "gulp"
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check-site.mjs",
+    "legacy:watch": "gulp watch"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",

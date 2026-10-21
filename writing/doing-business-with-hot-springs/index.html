@@ -43,20 +43,15 @@
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
-    <nav class="navbar site-navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <nav class="navbar site-navbar navbar-light bg-white sticky-top" aria-label="Primary">
         <div class="container">
             <a class="navbar-brand site-brand" href="/">Garrett Collier</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainNavigation">
+            <div class="site-navigation" id="mainNavigation">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="/writing/">Writing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/public-service/">Public Service</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/technology/">Technology</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/experience/">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/work/">Work</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/writing/" aria-current="location">Writing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/speaking/">Speaking</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
                 </ul>
             </div>
@@ -142,18 +137,18 @@
                     <h2>Sources &amp; Further Reading</h2>
                     <p>Last verified: October 15, 2026. Procurement platforms, forms, and contact information can change. Use the buyer’s current instructions and the requirements of each solicitation.</p>
                     <ul>
-                        <li><a href="https://www.hotspringsar.gov/1432/Purchasing" target="_blank" rel="noopener">City of Hot Springs: Purchasing Division and registration instructions</a></li>
-                        <li><a href="https://arkansas.ionwave.net/Login.aspx" target="_blank" rel="noopener">AR Bid: supplier registration and bid opportunities</a></li>
-                        <li><a href="https://www.hotspringsar.gov/DocumentCenter/View/26403/Vendor-Application" target="_blank" rel="noopener">City of Hot Springs: vendor application</a></li>
-                        <li><a href="https://www.hotspringsar.gov/DocumentCenter/View/61/Opportunities-for-Vendors-Brochure" target="_blank" rel="noopener">City of Hot Springs: Opportunities for Vendors brochure</a></li>
-                        <li><a href="https://myemail.constantcontact.com/State-of-Arkansas-SAP-Ariba-Is-Now-Live-.html?aid=3YMXDmoJeBg&amp;soid=1142132076162" target="_blank" rel="noopener">State of Arkansas SAP Ariba Implementation Team: system launch and supplier registration</a></li>
-                        <li><a href="https://sas.arkansas.gov/procurement/vendor-registration-resources/" target="_blank" rel="noopener">Arkansas Office of State Procurement: vendor registration and resources</a></li>
+                        <li><a href="https://www.hotspringsar.gov/1432/Purchasing" rel="noopener">City of Hot Springs: Purchasing Division and registration instructions</a></li>
+                        <li><a href="https://arkansas.ionwave.net/Login.aspx" rel="noopener">AR Bid: supplier registration and bid opportunities</a></li>
+                        <li><a href="https://www.hotspringsar.gov/DocumentCenter/View/26403/Vendor-Application" rel="noopener">City of Hot Springs: vendor application</a></li>
+                        <li><a href="https://www.hotspringsar.gov/DocumentCenter/View/61/Opportunities-for-Vendors-Brochure" rel="noopener">City of Hot Springs: Opportunities for Vendors brochure</a></li>
+                        <li><a href="https://myemail.constantcontact.com/State-of-Arkansas-SAP-Ariba-Is-Now-Live-.html?aid=3YMXDmoJeBg&amp;soid=1142132076162" rel="noopener">State of Arkansas SAP Ariba Implementation Team: system launch and supplier registration</a></li>
+                        <li><a href="https://sas.arkansas.gov/procurement/vendor-registration-resources/" rel="noopener">Arkansas Office of State Procurement: vendor registration and resources</a></li>
                     </ul>
                 </footer>
 
                 <aside class="callout">
                     <h2>About Garrett</h2>
-                    <p>Garrett Collier is a software developer and public administrator from Hot Springs, Arkansas. His writing focuses on making complicated public questions easier to understand without flattening the evidence, tradeoffs, or uncertainty. You can also follow future essays through <a href="https://substack.com/@garrettcolecollier" target="_blank" rel="noopener">Substack</a>.</p>
+                    <p>Garrett Collier is a software developer and public administrator from Hot Springs, Arkansas. His writing focuses on making complicated public questions easier to understand without flattening the evidence, tradeoffs, or uncertainty. You can also follow future essays through <a href="https://substack.com/@garrettcolecollier" rel="noopener">Substack</a>.</p>
                 </aside>
 
 
@@ -171,14 +166,14 @@
         <div class="container footer-grid">
             <p>&copy; 2026 Garrett Collier</p>
             <nav aria-label="Footer">
+                <a href="/about/">About</a>
+                <a href="/work/">Work</a>
                 <a href="/writing/">Writing</a>
-                <a href="/projects/">Projects</a>
-                <a href="/experience/">Experience</a>
+                <a href="/speaking/">Speaking</a>
                 <a href="/contact/">Contact</a>
             </nav>
         </div>
     </footer>
-    <script src="/assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/assets/js/reading-motion.js" defer></script>
 </body>
 </html>

@@ -39,20 +39,15 @@
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
-    <nav class="navbar site-navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <nav class="navbar site-navbar navbar-light bg-white sticky-top" aria-label="Primary">
         <div class="container">
             <a class="navbar-brand site-brand" href="/">Garrett Collier</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainNavigation">
+            <div class="site-navigation" id="mainNavigation">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="/writing/">Writing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/public-service/">Public Service</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/technology/">Technology</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/experience/">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/work/">Work</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/writing/" aria-current="location">Writing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/speaking/">Speaking</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
                 </ul>
             </div>
@@ -186,7 +181,7 @@
             <p>If voters authorize hundreds of millions of dollars in borrowing capacity, taxpayers should be able to follow the money easily.</p>
             <p>That means public information showing which projects receive assistance, why they qualified, what financing terms were provided, whether the assistance is a loan or grant, how much federal funding was leveraged, whether projects are on schedule, how much has been repaid, and what measurable public benefit resulted.</p>
             <p>Most of that information already exists somewhere within government. Technology simply gives us the ability to organize it in a way ordinary residents can understand.</p>
-            <p>This is the same philosophy behind my work on <a href="https://openhotsprings.com/" target="_blank" rel="noopener">OpenHotSprings.com</a>.</p>
+            <p>This is the same philosophy behind my work on <a href="https://openhotsprings.com/" rel="noopener">OpenHotSprings.com</a>.</p>
             <p>Public information is considerably more useful when residents can actually find it, understand it, and follow what happens next.</p>
             <p>If the public assumes the financial obligation, the public should be able to see how that obligation is being used.</p>
 
@@ -207,14 +202,14 @@
                     <h2>Sources &amp; Further Reading</h2>
                     <p>I include these sources so residents can review the proposal and the underlying information for themselves rather than relying solely on my interpretation.</p>
                     <ul>
-                <li><a href="https://arkleg.state.ar.us/Home/FTPDocument?path=/ACTS/2025R/Public/ACT578.pdf" target="_blank" rel="noopener">Arkansas General Assembly: Act 578 of 2025</a></li>
-                <li><a href="https://www.sos.arkansas.gov/elections/initiatives-and-referenda" target="_blank" rel="noopener">Arkansas Secretary of State: 2026 initiatives and referenda</a></li>
-                <li><a href="https://www.uaex.uada.edu/business-communities/voter-education/issue4.aspx" target="_blank" rel="noopener">University of Arkansas Cooperative Extension Public Policy Center: Issue 4 voter guide</a></li>
-                <li><a href="https://www.hotspringsar.gov/Archive.aspx?ADID=806" target="_blank" rel="noopener">City of Hot Springs: 2026 budget book</a></li>
-                <li><a href="https://www.hotspringsar.gov/1725/Trendsetter-Cities-2022---Lake-Ouachita-" target="_blank" rel="noopener">City of Hot Springs: Lake Ouachita Water Supply Project</a></li>
-                <li><a href="https://www.hotspringsar.gov/235/Wastewater-Treatment" target="_blank" rel="noopener">City of Hot Springs: wastewater treatment</a></li>
-                <li><a href="https://www.hotspringsar.gov/ArchiveCenter/ViewFile/Item/789" target="_blank" rel="noopener">City of Hot Springs Engineering Department: Gulpha Basin project progress</a></li>
-                <li><a href="https://www.aol.com/articles/hot-springs-water-plant-saves-233832000.html" target="_blank" rel="noopener">AOL/KARK: New Hot Springs water plant saves city from having to conserve water</a></li>
+                <li><a href="https://arkleg.state.ar.us/Home/FTPDocument?path=/ACTS/2025R/Public/ACT578.pdf" rel="noopener">Arkansas General Assembly: Act 578 of 2025</a></li>
+                <li><a href="https://www.sos.arkansas.gov/elections/initiatives-and-referenda" rel="noopener">Arkansas Secretary of State: 2026 initiatives and referenda</a></li>
+                <li><a href="https://www.uaex.uada.edu/business-communities/voter-education/issue4.aspx" rel="noopener">University of Arkansas Cooperative Extension Public Policy Center: Issue 4 voter guide</a></li>
+                <li><a href="https://www.hotspringsar.gov/Archive.aspx?ADID=806" rel="noopener">City of Hot Springs: 2026 budget book</a></li>
+                <li><a href="https://www.hotspringsar.gov/1725/Trendsetter-Cities-2022---Lake-Ouachita-" rel="noopener">City of Hot Springs: Lake Ouachita Water Supply Project</a></li>
+                <li><a href="https://www.hotspringsar.gov/235/Wastewater-Treatment" rel="noopener">City of Hot Springs: wastewater treatment</a></li>
+                <li><a href="https://www.hotspringsar.gov/ArchiveCenter/ViewFile/Item/789" rel="noopener">City of Hot Springs Engineering Department: Gulpha Basin project progress</a></li>
+                <li><a href="https://www.aol.com/articles/hot-springs-water-plant-saves-233832000.html" rel="noopener">AOL/KARK: New Hot Springs water plant saves city from having to conserve water</a></li>
               </ul>
                 </footer>
 
@@ -236,14 +231,14 @@
         <div class="container footer-grid">
             <p>&copy; 2026 Garrett Collier</p>
             <nav aria-label="Footer">
+                <a href="/about/">About</a>
+                <a href="/work/">Work</a>
                 <a href="/writing/">Writing</a>
-                <a href="/projects/">Projects</a>
-                <a href="/experience/">Experience</a>
+                <a href="/speaking/">Speaking</a>
                 <a href="/contact/">Contact</a>
             </nav>
         </div>
     </footer>
-    <script src="/assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/assets/js/reading-motion.js" defer></script>
 </body>
 </html>
